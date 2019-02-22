@@ -1,11 +1,14 @@
 /* --------------- основные настройки ---------*/
+
 *{ 
 	margin: 0; /* обнуление внешних отступов */
 	padding: 0; /* обнуление внутренних отступов */
 	border: none; /* обнуление границ у элементов */
     font-family: 'Arial', sans-serif; /* установлен шрифт всего сайта */
 }
-/* --------------- основные настройки ---------*/
+
+/* --------------- шапка сайта ---------*/
+
 .header {
     width: 100%;
 }
@@ -35,4 +38,64 @@
 .header__desc {
     margin-top: 10px;
     letter-spacing: 2px;
+}
+
+/* --------------- блок контент ---------*/
+
+.content__wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.skills__title {
+    text-align: center;
+    font-size: 50px;
+    padding: 50px;
+}
+.skills__box {
+    width: 500px;
+    margin: 0 auto;
+}
+.skills__element {
+    margin-bottom: 10px;
+}
+.skill__name {
+    margin-bottom: 10px;
+}
+.skill__bar {
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.skill__progress {
+    height: 100%;
+    width: 0;
+    background-color: #126ebe;   
+}
+.skill__progress_html {
+    width: 90%;
+}
+.skill__progress_html5 {
+    width: 80%;
+}
+.skill__progress_css {
+    width: 90%;
+}
+.skill__progress_css3 {
+    width: 80%;
+}
+.skill__progress_js {
+    width: 90%;
+}
+.skill__progress_jquery {
+    width: 80%;
+}
+.skill__progress_less {
+    width: 90%;
+}
+.skill__progress_bem {
+    width: 80%;
+}
+.skill__progress_git {
+    width: 80%;
 }
