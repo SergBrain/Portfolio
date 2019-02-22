@@ -45,11 +45,12 @@
 .content__wrapper {
     max-width: 1000px;
     margin: 0 auto;
+    padding: 50px 0;
 }
 .skills__title {
     text-align: center;
     font-size: 50px;
-    padding: 50px;
+    margin-bottom: 50px;
 }
 .skills__box {
     width: 500px;
@@ -98,4 +99,23 @@
 }
 .skill__progress_git {
     width: 80%;
+}
+
+/* --------------- подвал сайта ---------*/
+
+.footer {
+    width: 100%;
+}
+.footer_color {
+    background-color: #222;
+    color: #fff;
+}
+.footer__wrapper {
+    max-width: 1000px;
+    min-height: 100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
