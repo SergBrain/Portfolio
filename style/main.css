@@ -6,3 +6,10 @@
     font-family: 'Arial', sans-serif; /* установлен шрифт всего сайта */
 }
 /* --------------- основные настройки ---------*/
+.header {
+    width: 100%;
+}
+.header_color {
+    background-color: #053342;
+    color: #fff;
+}
